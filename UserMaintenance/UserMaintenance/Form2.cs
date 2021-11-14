@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace UserMaintenance
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-
-            label1.Text = Resource1.LastName;
-            label2.Text = Resource1.FirstName;
-            button1.Text = Resource1.Add;
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
