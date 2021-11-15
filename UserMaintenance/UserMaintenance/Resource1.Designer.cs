@@ -79,6 +79,15 @@ namespace UserMaintenance {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Törlés.
+        /// </summary>
+        internal static string Button3 {
+            get {
+                return ResourceManager.GetString("Button3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Teljesnév.
         /// </summary>
         internal static string FullName {

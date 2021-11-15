@@ -123,6 +123,9 @@
   <data name="Button2" xml:space="preserve">
     <value>Fájlba írás</value>
   </data>
+  <data name="Button3" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
   <data name="FullName" xml:space="preserve">
     <value>Teljesnév</value>
   </data>
