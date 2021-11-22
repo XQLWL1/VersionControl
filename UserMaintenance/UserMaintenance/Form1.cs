@@ -83,5 +83,20 @@ namespace UserMaintenance
 
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //Működik - remove all item:
+            /*listBox1.DataSource = null;
+            listBox1.Items.Remove(listBox1.SelectedItem);*/
+
+
+            //Működik - delete one item
+            users.Remove((User)listBox1.SelectedItem);
+
+            //Nem mőködik most - remove all items from the collection:
+            //listBox1.Items.Clear();
+        }
+
+
     }
 }
